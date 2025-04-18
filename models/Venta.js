@@ -6,4 +6,4 @@ const ventaSchema = new mongoose.Schema({
     fechaCreacion: { type: Date, default: Date.now }
 });
 
-module.exports = mongoose.model('Venta', ventaSchema);
+module.exports = mongoose.model('Venta', ventaSchema );
